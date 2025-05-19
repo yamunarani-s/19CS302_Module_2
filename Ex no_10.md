@@ -1,14 +1,14 @@
 # EX 10 C program to find the factorial of a given number using a function with arguments and return type.
-## DATE:
+## DATE:19/05/2025
 ## AIM:
 To write a C program to find the factorial of a given number using a function with arguments and return type.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+Analyze the question
+Follow the algorithm
+Try the code
+Check for error
+Run & Display the output
 
 ## Program:
 ```
@@ -18,10 +18,20 @@ Developed by:
 RegisterNumber:  
 */
 ```
+#include <stdio.h>
+
+int main() { int n, i; printf("Enter the number of times to print 'KEYBOARD': "); scanf("%d", &n);
+
+for(i = 0; i < n; i++) {
+    printf("KEYBOARD\n");
+}
+
+return 0;
+}
 
 ## Output:
 
-
+KEYBOARD KEYBOARD KEYBOARD KEYBOARD KEYBOARD
 
 ## Result:
 Thus the program was executed and the output was verified successfully.
